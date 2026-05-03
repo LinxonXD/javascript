@@ -1,0 +1,63 @@
+.checkout__section {
+    grid-template-columns: 1.6fr 1fr;
+    gap: 100px;
+}
+
+.top__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.bottom__row {
+    padding-top: 20px;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[id="firstName"],
+input[id="lastName"],
+input[id="email"] {
+    padding: 20px 10px;
+}
+
+label {
+    color: white;
+    font-weight: 700;
+}
+
+.order__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1c2030;
+    border: 0.5px solid #6b7280;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.order__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__total {
+    border-top: 1px solid #6b7280;
+    padding-top: 20px;
+}
+
+.checkout__buttons {
+    display: flex;
+    justify-content: end;
+    gap: 6px;
+    padding-top: 20px;
+}

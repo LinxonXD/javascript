@@ -1,0 +1,23 @@
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1c2030;
+    border: 0.5px solid #6b7280;
+    border-radius: 20px;
+    color: white;
+    padding: 60px 0;
+}
+
+.confirmation h1 {
+    text-transform: uppercase;
+}
+
+.confirmation p {
+    max-width: 500px;
+}

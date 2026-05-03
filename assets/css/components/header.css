@@ -1,0 +1,40 @@
+header {
+    background-color: #0d0f14;
+    position: fixed;
+    z-index: 50;
+}
+
+.header__content {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header__content ul {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+nav li a,
+.header__button {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+input[id="search"] {
+    font-size: 1rem;
+    padding: 10px 20px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    appearance: none;
+}

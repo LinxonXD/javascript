@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Eyes - Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../../assets/css/styles.css" />
+    <script type="module" src="./../../assets/js/final.js"></script>
+  </head>
+  <body>
+    <header class="layout">
+      <div class="header__content content">
+        <a href="../../../" class="logo">Square Eyes</a>
+
+        <nav aria-label="Main menu">
+          <ul>
+            <li><a href="../../../category/">Category</a></li>
+            <li><a href="../../../checkout/">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="checkout__section content grid">
+        <div class="checkout__left">
+          <h1>Checkout</h1>
+          <form id="checkout">
+            <div class="top__row">
+              <div class="input">
+                <label for="firstName">First name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="Enter your first name..."
+                />
+              </div>
+              <div class="input">
+                <label for="lastName">Last name</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  placeholder="Enter your last name..."
+                />
+              </div>
+            </div>
+            <div class="bottom__row">
+              <div class="input">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email address..."
+                />
+              </div>
+            </div>
+            <div class="checkout__buttons">
+              <a href="../" class="remove__btn">< Back to cart</a>
+              <button type="submit" class="add__btn">Place order</button>
+            </div>
+          </form>
+        </div>
+        <div class="checkout__right">
+          <h1>Order summary</h1>
+          <div class="order__summary">
+            <div class="order__text">
+              <p>Subtotal</p>
+              <p class="price"></p>
+            </div>
+            <div class="order__text">
+              <p>Discount</p>
+              <p class="discount"></p>
+            </div>
+            <div class="order__text order__total">
+              <p>Total:</p>
+              <p class="total"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="layout">
+      <div class="content">
+        <p>&copy; Square Eyes 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>

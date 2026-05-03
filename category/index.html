@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Eyes - Browse movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <script type="module" src="../../assets/js/category.js"></script>
+  </head>
+  <body>
+    <header class="layout">
+      <div class="header__content content">
+        <a href="../../" class="logo">Square Eyes</a>
+
+        <input type="search" id="search" placeholder="Search movies..." />
+
+        <nav aria-label="Main menu">
+          <ul>
+            <li><a href="../../category/">Category</a></li>
+            <li><a href="../../checkout/">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <h1>All movies</h1>
+        <div id="buttons__container"></div>
+      </div>
+      <div id="movies__container" class="content">
+        <div class="loading">
+          <p class="status">Loading movies...</p>
+        </div>
+      </div>
+    </main>
+    <footer class="layout">
+      <div class="content">
+        <p>&copy; Square Eyes 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>

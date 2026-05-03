@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Eyes - Shopping cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script type="module" src="../assets/js/checkout.js"></script>
+  </head>
+  <body>
+    <header class="layout">
+      <div class="header__content content">
+        <a href="../../" class="logo">Square Eyes</a>
+
+        <nav aria-label="Main menu">
+          <ul>
+            <li><a href="../../category/">Category</a></li>
+            <li><a href="../../checkout/">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="toast__container"></div>
+      <div class="content">
+        <h1>Shopping Cart</h1>
+        <div id="cart__container">
+          <div class="loading">
+            <p class="status">Loading shopping cart...</p>
+          </div>
+        </div>
+        <div class="cart__bottom">
+          <div id="cart__price">
+            <p id="total__text">Total:</p>
+            <div id="total__cart"></div>
+          </div>
+          <div class="cart__buttons">
+            <a href="../" class="remove__btn">< Back to movies</a>
+            <a href="./final" class="add__btn">Proceed to checkout</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="layout">
+      <div class="content">
+        <p>&copy; Square Eyes 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>

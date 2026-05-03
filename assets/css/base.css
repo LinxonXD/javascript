@@ -1,0 +1,41 @@
+.layout {
+    width: 100%;
+}
+
+.content {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.content h1 {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.04em;
+}
+
+.grid {
+    display: grid;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1152px) {
+    .content {
+        padding: 0 32px;
+    }
+}
