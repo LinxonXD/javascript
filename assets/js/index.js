@@ -20,7 +20,7 @@ export function displayMovies(movieList) {
     // Create clickable movie cards linking to product page
     const movieCard = document.createElement("a");
     movieCard.classList.add("movie");
-    movieCard.href = `../../product/?id=${movie.id}`;
+    movieCard.href = `../product/?id=${movie.id}`;
 
     // Create image element
     const movieImg = document.createElement("img");
