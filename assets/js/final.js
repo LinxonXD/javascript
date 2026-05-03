@@ -68,7 +68,7 @@ function submitForm() {
     removeAllFromCart();
 
     // Redirect to confirmation page
-    location.href = "/checkout/confirmation/";
+    location.href = "/javascript/checkout/confirmation/";
   });
 }
 
