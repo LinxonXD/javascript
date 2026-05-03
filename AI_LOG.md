@@ -5,6 +5,7 @@ Purpose:
 - Minor debugging assistance.
 - In-depth explanation of certain JS aspects.
 - Review report text.
+- The text for Privacy Policy & Terms and Conditions was created with AI.
 
 Outcome:
 Improved understanding of coding with JavaScript in front-end. Code written independently.
