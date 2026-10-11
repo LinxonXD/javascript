@@ -40,12 +40,17 @@ a {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 @media (min-width: 768px) {
     .content {
         padding: 0 20px;
+    }
+
+    .footer {
+        flex-direction: row;
     }
 }
 
