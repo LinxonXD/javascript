@@ -18,11 +18,27 @@
       <div class="header__content content">
         <a href="../../" class="logo">Square Eyes</a>
 
-        <nav aria-label="Main menu">
+        <label for="search" class="label__hidden">Search movies...</label>
+        <input type="search" id="search" placeholder="Search movies..." />
+
+        <nav class="desktop-menu" aria-label="Main menu">
           <ul>
             <li><a href="../../category/">Category</a></li>
             <li><a href="../../checkout/">Cart</a></li>
           </ul>
+        </nav>
+        <input type="checkbox" id="hamburger-checkbox" aria-label="Open menu" />
+        <label for="hamburger-checkbox" class="hamburger">
+          <img
+            src="../../assets/img/hamburger_icon_white.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="label__hidden">Open menu</span>
+        </label>
+        <nav class="hamburger-menu" aria-label="Mobile menu">
+          <li><a href="../../category/">Category</a></li>
+          <li><a href="../../checkout/">Cart</a></li>
         </nav>
       </div>
     </header>
@@ -59,11 +75,6 @@
                 />
               </div>
             </div>
-            <div class="checkout__buttons">
-              <a href="../" class="remove__btn">< Back to cart</a>
-              <button type="submit" class="add__btn">Place order</button>
-            </div>
-          </form>
         </div>
         <div class="checkout__right">
           <h1>Order summary</h1>
@@ -81,7 +92,12 @@
               <p class="total"></p>
             </div>
           </div>
+          <div class="checkout__buttons">
+            <a href="../" class="remove__btn">< Back to cart</a>
+            <button type="submit" class="add__btn">Place order</button>
+          </div>
         </div>
+        </form>
       </div>
     </main>
     <footer class="layout">

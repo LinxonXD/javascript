@@ -25,8 +25,14 @@
 }
 
 .product__information {
-    grid-template-columns: repeat(2, auto);
-    gap: 100px;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.product__information img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .product__texts {
@@ -75,4 +81,11 @@
 
 .product__keywords {
     color: white;
+}
+
+@media (min-width: 991px) {
+    .product__information {
+    grid-template-columns: repeat(2, auto);
+    gap: 100px;
+}
 }
